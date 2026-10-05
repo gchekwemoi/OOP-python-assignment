@@ -100,10 +100,16 @@ The notebook was also checked using Colab's Restart and run all.
 
 ## AI-use declaration
 
-I used ChatGPT to help set up GitHub and Colab, draft Python
-classes, analysis code, tests and written explanations, and
-troubleshoot file-location and import errors.
+I used ChatGPT as a learning and coding assistant to help with
+GitHub and Colab setup, draft code and explanations, and
+troubleshoot errors. AI assistance included suggestions for
+classes, forecasting methods, tests and synthetic data for
+Jinja and Mbarara.
 
-I ran the code and tests in Colab and reviewed the outputs.
-The additional Jinja and Mbarara population data were
-AI-generated synthetic examples.
+I used my own judgement to review the suggestions, examine
+the results and consider whether the assumptions were
+reasonable. I ran the code and tests, compared model errors,
+and reviewed the population forecasts and classroom estimates.
+
+The additional district data are synthetic, not official
+population estimates.
