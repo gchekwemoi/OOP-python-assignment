@@ -1,6 +1,6 @@
 # OOP with Python: Uganda Mini-Projects
 
-Five mini-projects for MSCS & MSDS Object-Oriented Programming with Python (Advent 2026). The notebooks demonstrate reusable Python classes, validation, statistics, numerical methods, forecasting, visualisation and tests in Ugandan scenarios. Data are illustrative unless explicitly identified as NASA POWER observations.
+Five mini-projects for  Object-Oriented Programming with Python. The notebooks demonstrate reusable Python classes, validation, statistics, numerical methods, forecasting, visualisation and tests in Ugandan scenarios. Data are illustrative unless explicitly identified as NASA POWER observations.
 
 ## Progress and notebooks
 
@@ -47,7 +47,7 @@ jupyter notebook
 
 Some notebook setup cells use Google Colab commands such as `!git clone` and `%cd /content/...`. Those cells should be skipped or adapted to the local project folder when using Anaconda/Jupyter. Interactive cells may request user input.
 
-### Google Colab (alternative)
+### Google Colab
 
 The notebooks were developed and tested using Google Colab. To reproduce them there, open a notebook from GitHub and run the cells; its setup code retrieves the project modules. Save modifications back to GitHub separately.
 
@@ -135,7 +135,7 @@ A `Route` class stores daily passenger counts and fares for Kampala–Ntinda, Ka
 
 ## Academic integrity and AI-use declaration
 
-I used ChatGPT as a learning and coding assistant to help with
+I used Ai as a learning and coding assistant to help with
 GitHub and Colab setup, draft code and explanations, and
 troubleshoot errors. AI assistance included suggestions for
 classes, forecasting methods, tests and synthetic data for
