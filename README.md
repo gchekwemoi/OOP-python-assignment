@@ -26,8 +26,18 @@ Five mini-projects for  Object-Oriented Programming with Python. The notebooks d
 - `microgrid_30days.csv` and `uganda_real_rainfall_2015_2024.csv` are generated in the Colab working folder by the corresponding notebook cells; they need not be pre-existing repository files.
 
 ## Setup and execution
+### Option 1: Online execution using Google Colab
 
-### Anaconda and Jupyter Notebook (recommended)
+The five mini-projects were developed and tested using Google Colab, an online Jupyter Notebook environment. Google Colab allows users to execute Python notebooks without installing Anaconda or other software locally.
+
+To run a project, open its notebook from the GitHub repository in Google Colab and execute the cells in sequence. All 42 unit tests across the five mini-projects passed successfully.
+
+The notebooks can also be run locally using Anaconda and Jupyter Notebook, provided the required dependencies are installed.
+
+The NASA POWER rainfall extension requires internet access in either environment.
+
+
+### Option 2: Local execution using Anaconda and Jupyter Notebook
 
 1. Install Anaconda (Python distribution), which includes Jupyter Notebook and a Python environment manager.
 2. Download this repository as a ZIP from GitHub and extract it, or clone it using Git.
@@ -47,11 +57,6 @@ jupyter notebook
 
 Some notebook setup cells use Google Colab commands such as `!git clone` and `%cd /content/...`. Those cells should be skipped or adapted to the local project folder when using Anaconda/Jupyter. Interactive cells may request user input.
 
-### Google Colab
-
-The notebooks were developed and tested using Google Colab. To reproduce them there, open a notebook from GitHub and run the cells; its setup code retrieves the project modules. Save modifications back to GitHub separately.
-
-The NASA POWER rainfall extension requires internet access in either environment.
 
 ## Tests
 
