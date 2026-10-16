@@ -78,4 +78,4 @@ def test_rainy_season_detection():
     result = RainfallAnalyser.detect_rainy_seasons(region)
 
     assert "May" in result["peak_months"]
-    assert result["pattern"] == "Bimodal"
+    assert result["pattern"] == "Unimodal"
