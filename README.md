@@ -25,33 +25,33 @@ Five mini-projects for MSCS & MSDS Object-Oriented Programming with Python (Adve
 - `requirements.txt`: Python dependencies.
 - `microgrid_30days.csv` and `uganda_real_rainfall_2015_2024.csv` are generated in the Colab working folder by the corresponding notebook cells; they need not be pre-existing repository files.
 
-## Running in Google Colab
+## Setup and execution
 
-1. Open a notebook from the table above, then use its **Open in Colab** link (or open the GitHub notebook in Colab).
-2. Select **Runtime → Restart session and run all**; follow any notebook input prompts.
-3. The notebook retrieves or changes into the GitHub repository folder and imports reusable code from `src/`.
-4. The rainfall extension requests historical precipitation data from NASA POWER and therefore requires internet access. If the API is unavailable, the real-data extension cannot run until access is restored.
-5. Colab edits do **not** automatically update GitHub; use **File → Save a copy in GitHub** after changes.
+### Anaconda and Jupyter Notebook (recommended)
 
-For a fresh Colab environment shared across notebooks, the setup can be:
-
-```python
-from pathlib import Path
-if not Path("/content/OOP-python-assignment").exists():
-    !git clone https://github.com/gchekwemoi/OOP-python-assignment.git
-%cd /content/OOP-python-assignment
-```
-
-## Running locally (optional)
+1. Install Anaconda (Python distribution), which includes Jupyter Notebook and a Python environment manager.
+2. Download this repository as a ZIP from GitHub and extract it, or clone it using Git.
+3. Open **Anaconda Prompt**, navigate to the extracted project folder, and install dependencies:
 
 ```bash
-git clone https://github.com/gchekwemoi/OOP-python-assignment.git
-cd OOP-python-assignment
 python -m pip install -r requirements.txt
-python -m notebook
 ```
 
-Open a notebook, account for Colab-specific shell/magic setup cells when running outside Colab, and run the analysis.
+4. Start Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+5. Open any of the five `.ipynb` files and run its cells in order. Keep the `src/` and `tests/` directories alongside the notebooks.
+
+Some notebook setup cells use Google Colab commands such as `!git clone` and `%cd /content/...`. Those cells should be skipped or adapted to the local project folder when using Anaconda/Jupyter. Interactive cells may request user input.
+
+### Google Colab (alternative)
+
+The notebooks were developed and tested using Google Colab. To reproduce them there, open a notebook from GitHub and run the cells; its setup code retrieves the project modules. Save modifications back to GitHub separately.
+
+The NASA POWER rainfall extension requires internet access in either environment.
 
 ## Tests
 
