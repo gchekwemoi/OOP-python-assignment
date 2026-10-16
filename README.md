@@ -12,7 +12,7 @@ Five mini-projects for MSCS & MSDS Object-Oriented Programming with Python (Adve
 | 4. Rainfall Pattern & Crop Suitability | [project4_rainfall.ipynb](project4_rainfall.ipynb) | Regional rainfall, crop screening and 10-year real-data extension |
 | 5. Taxi Route Revenue, Pricing & Fleet Planner | [project5_taxi_planner.ipynb](project5_taxi_planner.ipynb) | Fare equilibrium, walk-forward forecasts and vehicle allocation |
 
-**All five notebook files have been saved.** The final reproducibility check is to open each from a fresh Colab runtime and run every cell.
+**All five notebook files have been saved.** For reproducibility, each notebook should be run from start to finish in a fresh Python environment with the required dependencies installed. Local Jupyter execution may require adapting Colab-specific setup cells; successful execution in Anaconda has not yet been independently verified.
 
 ## Repository structure
 
